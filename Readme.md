@@ -2,9 +2,9 @@
 
 ### Analyzing Dataset
 
--> df.info() : figure out the Data Type, Null values 
--> df.duplicate().sum : duplicates rows
--> df[' '].value_counts() : for listing unique values of a paricluar columns
+-> df.info() : figure out the Data Type, Null values <br>
+-> df.duplicate().sum : duplicates rows <br>
+-> df[' '].value_counts() : for listing unique values of a paricluar columns <br>
 -> df.drop(columns = ['  ' , '  ']) : Remove non required columns
 -> df.get_dummies(df, columns=[' ',' '], drop_first = True) : get 0/1 of your character columns
 
