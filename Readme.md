@@ -8,6 +8,12 @@
 -> **df.drop(columns = ['  ' , '  '])** : Remove non required columns <br>
 -> **df.get_dummies(df, columns=[' ',' '], drop_first = True)** : get 0/1 of your character columns <br>
 
+### Plot scatter graph between two columns
+
+° Like Price and area 
+
+sns.scatterplot(data=df, x="RM", y="PRICE");
+
 ### Split your values (train_test_split)
 
 
