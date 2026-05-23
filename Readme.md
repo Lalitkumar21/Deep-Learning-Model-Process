@@ -1,6 +1,6 @@
 # From Dataset Analyzing to model creating
 
-### Analyzing Dataset
+### <u>Analyzing Dataset</u>
 
 -> **df.info()** : figure out the Data Type, Null values   
 -> **df.duplicate().sum** : duplicates rows <br>
