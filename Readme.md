@@ -1,6 +1,6 @@
-### From Dataset Analyzing to model creating
+# From Dataset Analyzing to model creating
 
-# Analyzing Dataset
+### Analyzing Dataset
 
 -> df.info() : figure out the Data Type, Null values 
 -> df.duplicate().sum : duplicates rows
@@ -8,18 +8,18 @@
 -> df.drop(columns = ['  ' , '  ']) : Remove non required columns
 -> df.get_dummies(df, columns=[' ',' '], drop_first = True) : get 0/1 of your character columns
 
-# Split your values (train_test_split)
+### Split your values (train_test_split)
 
 
 
-# Scale your values
+### Scale your values
 
 
 
-# Training the model
+### Training the model
 -> Add the layers
 -> get the weights and bias of your neural network
 
-# Test the model
+### Test the model
 
-# Get the score
+### Get the score
