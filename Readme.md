@@ -1,0 +1,25 @@
+### From Dataset Analyzing to model creating
+
+# Analyzing Dataset
+
+-> df.info() : figure out the Data Type, Null values 
+-> df.duplicate().sum : duplicates rows
+-> df[' '].value_counts() : for listing unique values of a paricluar columns
+-> df.drop(columns = ['  ' , '  ']) : Remove non required columns
+-> df.get_dummies(df, columns=[' ',' '], drop_first = True) : get 0/1 of your character columns
+
+# Split your values (train_test_split)
+
+
+
+# Scale your values
+
+
+
+# Training the model
+-> Add the layers
+-> get the weights and bias of your neural network
+
+# Test the model
+
+# Get the score
